@@ -18,3 +18,4 @@ var hashcreator = {
         ); 
      }
 }
+module.exports = hashcreator;
