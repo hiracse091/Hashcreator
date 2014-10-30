@@ -6,17 +6,17 @@
     <name>Hashcreator</name>
     <description>Phonegap Hashcreator Plugin</description>
     <license>MIT</license>
-    <keywords>phonegap,hashcreator</keywords>
+    <keywords>phonegap,BMSHAHashing</keywords>
  
  
-    <js-module src="www/hashcreator.js" name="Hashcreator">
-        <clobbers target="window.hashcreator" />
+    <js-module src="www/BMSHAHashing.js" name="BMSHAHashing">
+        <clobbers target="window.BMSHAHashing" />
     </js-module>
  
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="Hashcreator">
+            <feature name="BMSHAHashing">
                 <param name="android-package" value="com.dcastalia.hecontent.utils.BMSHAHashing"/>
             </feature>
         </config-file>
