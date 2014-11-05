@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
  
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="com.dcastalia.hecontent.utils"
+           id="com.dcastalia.prescriptionapp.utils"
       version="0.1.0">
     <name>Hashcreator</name>
     <description>Phonegap Hashcreator Plugin</description>
@@ -17,10 +17,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="BMSHAHashing">
-                <param name="android-package" value="com.dcastalia.hecontent.utils.BMSHAHashing"/>
+                <param name="android-package" value="com.dcastalia.prescriptionapp.utils.BMSHAHashing"/>
             </feature>
         </config-file>
  
-        <source-file src="src/android/BMSHAHashing.java" target-dir="src/com/dcastalia/hecontent/utils" />      
+        <source-file src="src/android/BMSHAHashing.java" target-dir="src/com/dcastalia/prescriptionapp/utils" />      
      </platform>          
 </plugin>

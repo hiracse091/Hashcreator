@@ -1,4 +1,4 @@
-package com.dcastalia.hecontent.utils;
+package com.dcastalia.prescriptionapp.utils;
 
 import java.security.MessageDigest;
 
